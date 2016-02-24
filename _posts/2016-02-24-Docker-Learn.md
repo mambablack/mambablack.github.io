@@ -3,11 +3,13 @@ layout: post
 title: Docker学习笔记
 category: Docker
 date: 2016-02-24
+duoshuo: false
+
 ---
 
-#Docker学习笔记
+# Docker学习笔记
 
-##大纲
+## 大纲
 
 * [Docker是什么](#c1)
 * [中文文档](#c2)
@@ -17,6 +19,7 @@ date: 2016-02-24
 * [学习点滴](#c6)
 * [实战](#c7)
 
+<!-- more -->
 
 ##<a id="c1">Docker是什么</a>
 
@@ -199,7 +202,7 @@ docker import http://example.com/exampleimage.tgz example/imagerepo
 
 ##<a id='c7'>实战</a>
 
-###目标
+### 目标
 
 1. 利用Docker Machine在多平台上安装Docker环境
 

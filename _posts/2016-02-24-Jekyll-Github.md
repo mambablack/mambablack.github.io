@@ -3,6 +3,7 @@ layout: post
 title: Jekyll and Github page 使用
 category: Jekyll
 date: 2016-02-24
+duoshuo: false
 ---
 
 ## Overview
