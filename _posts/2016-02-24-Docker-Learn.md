@@ -21,14 +21,14 @@ duoshuo: false
 
 <!-- more -->
 
-##<a id="c1">Docker是什么</a>
+<h2 id="c1">Docker是什么</h2>
 
 1. 容器就是轻量的VM
 2. Docker是轻量的容器
 
 
 
-##<a id="c2">中文文档</a>
+<h2 id="c2">中文文档</h2>
 https://github.com/widuu/chinese_docker/blob/master/userguide/usingdocker.md
 
 http://dockerpool.com/static/books/docker_practice/index.html
@@ -38,13 +38,13 @@ http://dockerpool.com/
 https://yeasy.gitbooks.io/docker_practice/content/
 
 
-##<a id='c3'>Docker优点</a>
+<h2 id='c3'>Docker优点</h2>
 
 1. Docker 对资源的利用率极高
 2. 轻量级
 3. 方便构建、发布
 
-##<a id='c4'>Docker生态系统</a>
+<h2 id='c4'>Docker生态系统</h2>
 
 1. Supervisor
 
@@ -64,7 +64,7 @@ https://yeasy.gitbooks.io/docker_practice/content/
 
 5. 
 
-##<a id="c5">Docker命令总结</a>
+<h2 id="c5">Docker命令总结</h2>
 
 
 ```
@@ -194,13 +194,13 @@ docker import http://example.com/exampleimage.tgz example/imagerepo
     
 
 
-##<a id='c6'>学习点滴</a>
+<h2 id='c6'>学习点滴</h2>
 
 1. docker 的镜像(image)是只读的，每次都会新建一个镜像
 
 2. container是Docker的容器，是image的实例
 
-##<a id='c7'>实战</a>
+<h2 id='c7'>实战</h2>
 
 ### 目标
 
