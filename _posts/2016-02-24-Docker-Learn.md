@@ -62,7 +62,7 @@ https://yeasy.gitbooks.io/docker_practice/content/
 
 	负责快速在集群中部署分布式应用
 
-5. 
+5. swarm
 
 <h2 id="c5">Docker命令总结</h2>
 
