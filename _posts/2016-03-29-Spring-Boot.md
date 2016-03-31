@@ -15,6 +15,7 @@ duoshuo: false
 
 * [1. Velocity相关](#1)
 * [2. SOAP and REST相关](#2)
+* [3. JPA相关](#3)
 
 
 
@@ -68,3 +69,26 @@ public DispatcherServlet dispatcherServlet()
 如果不添加会有spring mvc 和soap不能同时访问的问题
 
 ````
+
+<h2 id="3"> JPA相关</h2>
+
+1. application.properties配置
+
+````
+spring.jpa.database=oracle
+#spring.jpa.show-sql=true
+spring.datasource.url=jdbc:oracle:thin:@124.207.3.121:8895:shdb1
+spring.datasource.username=devapp1o
+spring.datasource.password=devapp1o
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+#spring.datasource.driver-class-name=net.sf.log4jdbc.DriverSpy
+spring.data.jpa.repositories.enabled=true
+````
+
+错误解决:
+
+1. returned null for URL  
+检查数据库配置是否正确，驱动是否加上等
+2. Not an managed type: interface  
+检查＊Repository接口继承的泛型是否正确
+ 
